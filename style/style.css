@@ -1,0 +1,214 @@
+.ul li:hover{
+    background-color:black ;
+    color: white;
+    cursor: pointer;
+
+
+}
+
+.audio h1{
+    padding-top: 20px;
+
+}
+.contact{
+    margin-top: 10px;
+    padding: 40px;
+    background-image:url('https://www.ydesignservices.com/wp-content/uploads/2016/07/Googlemap.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+
+.contacts{
+    margin-top: 100px;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+
+ }
+ input{
+     display: block;
+    width: 300px; 
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+
+
+
+
+
+
+ }
+ .contacts:hover{
+     
+    border-radius: 2px;
+    background-color:white;
+    color:black;
+    cursor: pointer;
+}
+
+
+
+
+.more-info{
+    background-color:black ;
+    color: white;
+}
+
+.more-info:hover{
+    background-color:white;
+    color:black;
+    cursor: pointer;
+}
+
+.registration {
+    background-color:black; 
+    color:white;
+   
+   
+  
+}
+.registration:hover{
+    background-color:white;
+    color:black;
+    cursor: pointer;
+    }
+    .container{
+        background-color:black;
+        height: 200px;
+        display: flex;
+        justify-content: space-around;
+       align-items: center;
+       
+
+
+    }
+
+ 
+ .child1{
+ border-radius:50px;
+background-color: aqua;
+height: 200px;
+width: 200px;
+display: flex ;
+justify-content: center;
+align-items: center;
+
+
+ }
+ .child2{
+    border-radius:50px;
+    background-color: yellowgreen;
+    height: 200px;
+    width: 200px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+.child3{
+    border-radius:50px;
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+.child4{
+    border-radius:50px;
+    background-color: palevioletred;
+    height: 200px;
+    width: 200px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#service{
+    width: 100%;
+    
+    padding:70px 0 ;
+    background-color:black ;
+    
+    
+    
+    
+    
+    }
+    .service-box{
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: auto;
+    }
+    
+    .single-service{
+        flex-basis: 48%;
+        text-align: center;
+        border-radius: 7px;
+        margin-bottom: 20px;
+        color: #fff;
+        position: relative;
+    }
+    
+    .single-service img{
+        width: 100%;
+        
+        border-radius:7px ;
+    }
+    
+    
+    
+    .overlay{
+        width:100% ;
+        height: 100%;
+        position: absolute;
+        top: 0;
+         border-radius: 7px;
+         cursor: pointer;
+         background:linear-gradient(rgba(0,0,0,0.5),grey);
+         opacity:0;
+         transition: 2s;
+    }
+    
+    .single-service:hover .overlay{
+        opacity: 1;
+    }
+    
+    .service-desc{
+        width:80% ;
+        position:absolute ;
+        bottom: 0;
+        left: 50%;
+        opacity: 0;
+        transform:translateX(-50%);
+        transition: 1s;
+    }
+    hr{
+        background: #fff;
+        height:2px ;
+        border: 0;
+        margin:15px auto ;
+        width:60% ;
+    }
+    
+    .service-desc p{
+        font-size: 14px;
+    }
+    .single-service:hover  .service-desc{
+    bottom: 40%;
+    opacity: 1;
+    }
+    
+    
+    
+
+
+
+
+
